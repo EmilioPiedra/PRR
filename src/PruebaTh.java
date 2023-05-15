@@ -14,7 +14,7 @@ public class PruebaTh extends Thread{
 
         }
 
-        System.out.println("hola mundo"+nombre+" "+retardo);
+        System.out.println("hola mundo "+nombre+" "+retardo);
 
     }
 }
