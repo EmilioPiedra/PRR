@@ -12,9 +12,9 @@ class helloRunnable implements Runnable{
         String hellosMes = String.format("Hola soy %s",threadName);
         System.out.println(hellosMes);
     }
-}
-var t1 = new helloThread();
-var t2 = new Thread(new helloRunnable());
+
+        //var t1 = new helloThread();
+        //var t2 = new Thread(new helloRunnable());
 Thread myThread = new Thread(new helloRunnable(), "my-Thread");
 Thread t3 = new Thread(()->{
     System.out.println();
